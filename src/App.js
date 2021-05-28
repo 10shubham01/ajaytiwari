@@ -4,9 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <button href="https://www.instagram.com/ajaytiwarilive/">
-        InstaGram
-      </button>
+      <button href="https://www.instagram.com/ajaytiwarilive/">Click me</button>
     </div>
   );
 }
