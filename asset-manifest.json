@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/ajaytiwari/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/ajaytiwari/static/js/main.f3b60caf.chunk.js",
-    "main.js.map": "/ajaytiwari/static/js/main.f3b60caf.chunk.js.map",
+    "main.js": "/ajaytiwari/static/js/main.82b27217.chunk.js",
+    "main.js.map": "/ajaytiwari/static/js/main.82b27217.chunk.js.map",
     "runtime-main.js": "/ajaytiwari/static/js/runtime-main.a875f855.js",
     "runtime-main.js.map": "/ajaytiwari/static/js/runtime-main.a875f855.js.map",
-    "static/js/2.5f52da4e.chunk.js": "/ajaytiwari/static/js/2.5f52da4e.chunk.js",
-    "static/js/2.5f52da4e.chunk.js.map": "/ajaytiwari/static/js/2.5f52da4e.chunk.js.map",
+    "static/js/2.f8b1a114.chunk.js": "/ajaytiwari/static/js/2.f8b1a114.chunk.js",
+    "static/js/2.f8b1a114.chunk.js.map": "/ajaytiwari/static/js/2.f8b1a114.chunk.js.map",
     "static/js/3.20c5cf45.chunk.js": "/ajaytiwari/static/js/3.20c5cf45.chunk.js",
     "static/js/3.20c5cf45.chunk.js.map": "/ajaytiwari/static/js/3.20c5cf45.chunk.js.map",
     "index.html": "/ajaytiwari/index.html",
     "static/css/main.9d5b29c0.chunk.css.map": "/ajaytiwari/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.5f52da4e.chunk.js.LICENSE.txt": "/ajaytiwari/static/js/2.5f52da4e.chunk.js.LICENSE.txt",
+    "static/js/2.f8b1a114.chunk.js.LICENSE.txt": "/ajaytiwari/static/js/2.f8b1a114.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/ajaytiwari/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a875f855.js",
-    "static/js/2.5f52da4e.chunk.js",
+    "static/js/2.f8b1a114.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.f3b60caf.chunk.js"
+    "static/js/main.82b27217.chunk.js"
   ]
 }
