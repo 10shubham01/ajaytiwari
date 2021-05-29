@@ -1,10 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
+import React, { useState } from "react";
+import Nav_bar from "./Components/Nav_bar";
 
 function App() {
   return (
     <div className="App">
-      <button href="https://www.instagram.com/ajaytiwarilive/">Click me</button>
+      <Nav_bar />
+      <section style={{ height: "100vh", background: "#fff" }}></section>
+      <section style={{ height: "100vh", background: "#000" }}></section>
+      <section style={{ height: "100vh", background: "#fff" }}></section>
+      <section style={{ height: "100vh", background: "#000" }}></section>
     </div>
   );
 }
