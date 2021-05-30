@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/ajaytiwari/static/css/main.be19d775.chunk.css",
-    "main.js": "/ajaytiwari/static/js/main.2cf95d45.chunk.js",
-    "main.js.map": "/ajaytiwari/static/js/main.2cf95d45.chunk.js.map",
-    "runtime-main.js": "/ajaytiwari/static/js/runtime-main.8d98ae36.js",
-    "runtime-main.js.map": "/ajaytiwari/static/js/runtime-main.8d98ae36.js.map",
+    "main.css": "/ajaytiwari/static/css/main.2d9f181a.chunk.css",
+    "main.js": "/ajaytiwari/static/js/main.e01887b2.chunk.js",
+    "main.js.map": "/ajaytiwari/static/js/main.e01887b2.chunk.js.map",
+    "runtime-main.js": "/ajaytiwari/static/js/runtime-main.ea1a88ac.js",
+    "runtime-main.js.map": "/ajaytiwari/static/js/runtime-main.ea1a88ac.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/ajaytiwari/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9dbf174b.chunk.js": "/ajaytiwari/static/js/2.9dbf174b.chunk.js",
-    "static/js/2.9dbf174b.chunk.js.map": "/ajaytiwari/static/js/2.9dbf174b.chunk.js.map",
-    "static/js/3.cb5dab0a.chunk.js": "/ajaytiwari/static/js/3.cb5dab0a.chunk.js",
-    "static/js/3.cb5dab0a.chunk.js.map": "/ajaytiwari/static/js/3.cb5dab0a.chunk.js.map",
+    "static/js/2.07fad7e3.chunk.js": "/ajaytiwari/static/js/2.07fad7e3.chunk.js",
+    "static/js/2.07fad7e3.chunk.js.map": "/ajaytiwari/static/js/2.07fad7e3.chunk.js.map",
+    "static/js/3.6430c7d4.chunk.js": "/ajaytiwari/static/js/3.6430c7d4.chunk.js",
+    "static/js/3.6430c7d4.chunk.js.map": "/ajaytiwari/static/js/3.6430c7d4.chunk.js.map",
     "index.html": "/ajaytiwari/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/ajaytiwari/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.be19d775.chunk.css.map": "/ajaytiwari/static/css/main.be19d775.chunk.css.map",
-    "static/js/2.9dbf174b.chunk.js.LICENSE.txt": "/ajaytiwari/static/js/2.9dbf174b.chunk.js.LICENSE.txt",
+    "static/css/main.2d9f181a.chunk.css.map": "/ajaytiwari/static/css/main.2d9f181a.chunk.css.map",
+    "static/js/2.07fad7e3.chunk.js.LICENSE.txt": "/ajaytiwari/static/js/2.07fad7e3.chunk.js.LICENSE.txt",
+    "static/media/Homepage.css": "/ajaytiwari/static/media/C0155T01.ed896fe3.JPG",
     "static/media/logo.6ce24c58.svg": "/ajaytiwari/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d98ae36.js",
+    "static/js/runtime-main.ea1a88ac.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9dbf174b.chunk.js",
-    "static/css/main.be19d775.chunk.css",
-    "static/js/main.2cf95d45.chunk.js"
+    "static/js/2.07fad7e3.chunk.js",
+    "static/css/main.2d9f181a.chunk.css",
+    "static/js/main.e01887b2.chunk.js"
   ]
 }
