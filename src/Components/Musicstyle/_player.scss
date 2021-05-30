@@ -1,0 +1,97 @@
+.player {
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  button {
+    border: 0px;
+    background: transparent;
+
+    &:disabled {
+      color: grey;
+    }
+  }
+}
+
+.time-control {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    width: 100%;
+    background: transparent;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+
+  p {
+    padding: 1rem;
+  }
+}
+
+.play-control {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  svg {
+    cursor: pointer;
+    color: $primary-text-color;
+
+    &:hover {
+      color: $primary-light-color;
+    }
+  }
+}
+
+// seekbar customization
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+}
+
+.track {
+  background: lightblue;
+  width: 100%;
+  height: 0.5rem;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.animate-track {
+  background: rgb(204, 204, 204);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0%);
+  pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+  .time-control {
+    width: 90%;
+  }
+
+  .play-control {
+    width: 60%;
+  }
+}

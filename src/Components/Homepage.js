@@ -1,6 +1,7 @@
 import "./Homepage.css";
 import { Grid } from "@material-ui/core";
 import Typewriter from "typewriter-effect";
+import Music from "./Music";
 function Homepage() {
   return (
     <div>
@@ -36,8 +37,10 @@ function Homepage() {
             lg={6}
             sm={6}
             xs={12}
-            style={{ backgroundColor: "green" }}
-          ></Grid>
+            style={{ backgroundColor: "transparent" }}
+          >
+            <Music />
+          </Grid>
         </Grid>
       </div>
     </div>

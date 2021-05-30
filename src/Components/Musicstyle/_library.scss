@@ -1,0 +1,20 @@
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: transparent !important;
+}
+
+.library-song {
+  cursor: pointer;
+
+  background: transparent;
+
+  &:hover {
+    background-color: blue;
+  }
+}
+
+.active {
+  background: red;
+}
+
+// for chrome scrollbar
