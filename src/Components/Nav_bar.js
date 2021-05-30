@@ -10,34 +10,38 @@ import {
 } from "react-bootstrap";
 
 function Nav_bar() {
-  const [navbar, setnavbar] = useState(false);
+  const [navbarcolor, setnavbarcolor] = useState(false);
   const changeback = () => {
-    console.log("x>", window.scrollY);
     if (window.scrollY >= 80) {
-      setnavbar(true);
+      setnavbarcolor(true);
     } else {
-      setnavbar(false);
+      setnavbarcolor(false);
     }
   };
   window.addEventListener("scroll", changeback);
   return (
     <div>
-      <h1> Bootstrap -Navbar</h1>
       <Navbar
         collapseOnSelect
-        expand="lg"
-        Navbar
         fixed="top"
-        className={navbar ? "bg-light" : "bg-dark"}
+        variant="dark"
+        expand="lg"
+        className={navbarcolor ? "bkcolor" : "bkcolor_1"}
       >
         <Navbar.Brand href="#home">Ajay Tiwari</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#Tabs">Home</Nav.Link>
-            <Nav.Link href="#Tabs">About</Nav.Link>
-            <Nav.Link href="#SelectBox">Videos</Nav.Link>
-            <Nav.Link href="#SelectBox">Contact</Nav.Link>
+            <Nav.Link href="#sec1">Home</Nav.Link>
+            <Nav.Link href="#pricing">About</Nav.Link>
+            <Nav.Link href="#pricing">Videos</Nav.Link>
+            <Nav.Link href="#pricing">Contact Me</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="#deets">More deets</Nav.Link>
+            <Nav.Link eventKey={2} href="#memes">
+              Dank memes
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

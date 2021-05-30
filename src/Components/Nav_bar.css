@@ -1,19 +1,8 @@
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 10% !important;
-    /* padding-left: auto !important; */
-  }
+.bkcolor {
+  background: #000;
+  transition: 0.7s;
 }
-.navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
-  padding-right: 30%;
-}
-
-.bg-dark {
-  background-color: #343a40 !important;
-  transition: 0.5s !important;
-}
-.bg-light {
-  background-color: #c4c3c3 !important;
-  transition: 0.5s !important;
+.bkcolor_1 {
+  background: transparent;
+  transition: 0.7s;
 }
