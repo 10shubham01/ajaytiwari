@@ -7,6 +7,7 @@ import {
   faAngleRight,
   faStepForward,
   faStepBackward,
+  faBackward,
 } from "@fortawesome/free-solid-svg-icons";
 import { playAudio } from "../utilities/playAudio";
 
@@ -84,7 +85,7 @@ const Player = ({
           <FontAwesomeIcon
             className="skip-back"
             size="2x"
-            icon={faAngleLeft}
+            icon={faStepBackward}
             onClick={prevSong}
           />
         </button>

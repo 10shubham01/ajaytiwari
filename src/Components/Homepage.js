@@ -14,18 +14,7 @@ function Homepage() {
             xs={12}
             justify="center"
             alignItems="center"
-          >
-            <text
-              style={{
-                backgroundColor: "transparent",
-                color: "white",
-                fontSize: window.screen.width < 600 ? 30 : 80,
-              }}
-            >
-              {" "}
-              <span> Ajay</span> <br></br>Tiwari
-            </text>
-          </Grid>
+          ></Grid>
           <Grid
             item
             lg={6}
@@ -33,6 +22,17 @@ function Homepage() {
             xs={12}
             style={{ backgroundColor: "transparent" }}
           >
+            <text
+              style={{
+                backgroundColor: "transparent",
+                color: "white",
+
+                fontSize: window.screen.width < 600 ? "80px" : "100px",
+              }}
+            >
+              {" "}
+              <span> Ajay</span> Tiwari
+            </text>
             <Music />
           </Grid>
         </Grid>
