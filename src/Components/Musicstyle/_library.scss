@@ -9,12 +9,16 @@
   background: transparent;
 
   &:hover {
-    background-color: blue;
+    color: black;
   }
 }
 
 .active {
-  background: red;
+  border-bottom: 0.5px solid black;
+}
+
+.btn:focus {
+  box-shadow: none !important;
 }
 
 // for chrome scrollbar

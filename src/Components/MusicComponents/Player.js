@@ -5,6 +5,8 @@ import {
   faPause,
   faAngleLeft,
   faAngleRight,
+  faStepForward,
+  faStepBackward,
 } from "@fortawesome/free-solid-svg-icons";
 import { playAudio } from "../utilities/playAudio";
 
@@ -62,7 +64,7 @@ const Player = ({
         <p>{getNormalTime(songState.currentTime)}</p>
         <div
           style={{
-            background: "#F32013",
+            background: "black",
           }}
           className="track"
         >
@@ -98,7 +100,7 @@ const Player = ({
           <FontAwesomeIcon
             className="skip-forward"
             size="2x"
-            icon={faAngleRight}
+            icon={faStepForward}
             onClick={nextSong}
           />
         </button>

@@ -12,30 +12,24 @@ function Homepage() {
             lg={6}
             sm={12}
             xs={12}
-            style={{
-              backgroundColor: "transparent",
-              color: "white",
-              fontSize: window.screen.width < 600 ? 30 : 80,
-            }}
+            justify="center"
+            alignItems="center"
           >
-            <Typewriter
-              style={{}}
-              options={{
-                strings: [
-                  "Hello World !! ",
-                  "I am Ajay ",
-                  "I am Singer",
-                  " I am Composer",
-                ],
-                autoStart: true,
-                loop: true,
+            <text
+              style={{
+                backgroundColor: "transparent",
+                color: "white",
+                fontSize: window.screen.width < 600 ? 30 : 80,
               }}
-            />
+            >
+              {" "}
+              <span> Ajay</span> <br></br>Tiwari
+            </text>
           </Grid>
           <Grid
             item
             lg={6}
-            sm={6}
+            sm={12}
             xs={12}
             style={{ backgroundColor: "transparent" }}
           >

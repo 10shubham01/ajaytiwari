@@ -27,9 +27,13 @@ const Library = ({
 
   return (
     <div>
-      <Dropdown>
-        <Dropdown.Toggle variant="" id="dropdown-basic">
-          Dropdown Button
+      <Dropdown style={{ paddingTop: 20 }}>
+        <Dropdown.Toggle
+          variant=""
+          id="dropdown-basic"
+          style={{ border: "none", color: "white" }}
+        >
+          Play List
         </Dropdown.Toggle>
         <Dropdown.Menu>
           <Dropdown.Item className="library-songs">
