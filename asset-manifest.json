@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ajaytiwari/static/css/main.5509e920.chunk.css",
-    "main.js": "/ajaytiwari/static/js/main.8ba342d8.chunk.js",
-    "main.js.map": "/ajaytiwari/static/js/main.8ba342d8.chunk.js.map",
+    "main.css": "/ajaytiwari/static/css/main.d7c1ed1b.chunk.css",
+    "main.js": "/ajaytiwari/static/js/main.a799359f.chunk.js",
+    "main.js.map": "/ajaytiwari/static/js/main.a799359f.chunk.js.map",
     "runtime-main.js": "/ajaytiwari/static/js/runtime-main.a20f09fc.js",
     "runtime-main.js.map": "/ajaytiwari/static/js/runtime-main.a20f09fc.js.map",
     "static/css/2.a7a85ca3.chunk.css": "/ajaytiwari/static/css/2.a7a85ca3.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.4516417a.chunk.js.map": "/ajaytiwari/static/js/3.4516417a.chunk.js.map",
     "index.html": "/ajaytiwari/index.html",
     "static/css/2.a7a85ca3.chunk.css.map": "/ajaytiwari/static/css/2.a7a85ca3.chunk.css.map",
-    "static/css/main.5509e920.chunk.css.map": "/ajaytiwari/static/css/main.5509e920.chunk.css.map",
+    "static/css/main.d7c1ed1b.chunk.css.map": "/ajaytiwari/static/css/main.d7c1ed1b.chunk.css.map",
     "static/js/2.f2386773.chunk.js.LICENSE.txt": "/ajaytiwari/static/js/2.f2386773.chunk.js.LICENSE.txt",
     "static/media/Homepage.css": "/ajaytiwari/static/media/C0155T01.ed896fe3.JPG",
     "static/media/IMG-20191227-WA0023.083378fe.jpg": "/ajaytiwari/static/media/IMG-20191227-WA0023.083378fe.jpg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.a20f09fc.js",
     "static/css/2.a7a85ca3.chunk.css",
     "static/js/2.f2386773.chunk.js",
-    "static/css/main.5509e920.chunk.css",
-    "static/js/main.8ba342d8.chunk.js"
+    "static/css/main.d7c1ed1b.chunk.css",
+    "static/js/main.a799359f.chunk.js"
   ]
 }
